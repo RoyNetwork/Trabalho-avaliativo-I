@@ -1,3 +1,6 @@
+
+    /* Codigo JavaScript fornecido pelo professor */
+
 function calculateIMC() {
     const weight = parseFloat(document.getElementById('weight').value);
     const height = parseFloat(document.getElementById('height').value);

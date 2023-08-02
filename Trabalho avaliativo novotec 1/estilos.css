@@ -1,4 +1,4 @@
-body {
+body {                    /* CSS fornecido pelo professor */
     font-family: Arial, sans-serif;
   }
   
@@ -33,3 +33,20 @@ body {
     margin-top: 20px;
     font-weight: bold;
   }
+
+  .conteudo {      /* CSS da imagem de fundo */
+    background-image: url('Tallahassee-view.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Define a altura do elemento como 100% da altura da tela */
+}
+
+.frase {                      /* CSS da frase inferior esquerda */
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}

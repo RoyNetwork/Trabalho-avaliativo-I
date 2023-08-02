@@ -1,23 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!--Documento tipo HTML-->
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="script.js"></script>
      <link rel="stylesheet" href="estilos.css">
-    <title>AAAAAAAAAAA</title>
+    <title>Calculador de IMC</title>
 </head>
 <body>
-    <form id="imcCalculator">
+    <div class="conteudo"> <!--Div do conteudo-->
+
+    <form id="imcCalculator"> <!--Algoritmo  da calculadora-->
         <label for="weight">Peso (kg):</label>
         <input type="number" id="weight" required>
       
         <label for="height">Altura (metros):</label>
         <input type="number" id="height" required>
       
-        <button type="button" onclick="calculateIMC()">Calcular IMC</button>
+        <button type="button" onclick="calculateIMC()">Calcular IMC</button> <!--Codigo do botao fisico-->
       </form>
       
-      <div id="result"></div>
+      <div id="result"></div> <!--Div do resultado do IMC-->
+
+      <div class="frase"> <!--Div da frase inferior esquerda-->
+        Tallahassee - Flórida
+    </div>
+
 </body>
 </html>
